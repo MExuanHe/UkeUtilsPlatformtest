@@ -1,0 +1,33 @@
+PODS:
+  - Masonry (1.1.0)
+  - platformttest (0.0.1):
+    - Masonry (~> 1.1.0)
+    - SDWebImage (~> 5.6.0)
+    - YPNavigationBarTransition (~> 2.0.9)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
+  - YPNavigationBarTransition (2.0.9)
+
+DEPENDENCIES:
+  - platformttest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - SDWebImage
+    - YPNavigationBarTransition
+
+EXTERNAL SOURCES:
+  platformttest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  platformttest: 6b6e2836662d475256f5b0ec4a1256036478dfd2
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+  YPNavigationBarTransition: 928a8a3d944cecfd2f10a0847710384a9cdf9039
+
+PODFILE CHECKSUM: e9a4fe45b3abe20549e4d0303d72b14b93a0d360
+
+COCOAPODS: 1.9.3
